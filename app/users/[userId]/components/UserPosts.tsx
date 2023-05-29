@@ -4,10 +4,6 @@ type Props = {
 
 import React from 'react';
 
-{
-  /* @ts-expect-error Server Component */
-}
-
 export default async function UserPosts({ promise }: Props) {
   const posts = await promise;
 
